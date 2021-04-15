@@ -1,0 +1,14 @@
+#box {
+    margin: 20px;
+    padding:20px;
+    border-style:solid;
+    border-color: grey;
+    border-width: 0.5px;
+    border-radius:3px;
+}
+
+#descr {
+    color:grey;
+    margin-top:0px;
+   
+}

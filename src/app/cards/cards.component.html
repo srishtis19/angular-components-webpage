@@ -1,0 +1,17 @@
+<p style="text-align:center">
+  Angular Material offers a wide variety of UI components based on the Material Design specification
+</p>
+<br>
+<div fxLayout="row wrap" fxLayoutGap="15px grid">
+<div fxFlex="33%" *ngFor="let comp of comps">
+  <mat-card   routerLink="{{comp.location}}">
+
+    <img mat-card-image src="{{comp.imgLocation}}">
+    <mat-card-action>
+    <mat-card-title >{{comp.name}}</mat-card-title>
+    <mat-card-subtitle>{{comp.description}}</mat-card-subtitle>
+    </mat-card-action>
+      
+  </mat-card>
+</div> 
+</div>  

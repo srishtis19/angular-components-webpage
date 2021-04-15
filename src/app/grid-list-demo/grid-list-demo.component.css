@@ -1,0 +1,18 @@
+mat-grid-tile {
+    background-color: lightblue;
+        
+}
+
+#box {
+    margin: 50px;
+    padding:50px;
+    border-style:solid;
+    border-color: grey;
+    border-width: 0.5px;
+    border-radius:3px;
+}
+
+#descr {
+    margin-top:0px;
+    color:grey;
+}

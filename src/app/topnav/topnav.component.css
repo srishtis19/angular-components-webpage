@@ -1,0 +1,18 @@
+a {
+    padding:25px;
+    color:white;
+    text-decoration: none;
+}
+
+#logo {
+    width:25px;
+    height:25px;
+}
+   
+
+.hi {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
